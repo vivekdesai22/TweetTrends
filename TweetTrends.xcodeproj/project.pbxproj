@@ -19,6 +19,8 @@
 		E2330D6918C3A65B00F23CCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2330D5118C3A65B00F23CCA /* UIKit.framework */; };
 		E2330D7118C3A65B00F23CCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2330D6F18C3A65B00F23CCA /* InfoPlist.strings */; };
 		E2330D7318C3A65B00F23CCA /* TweetTrendsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2330D7218C3A65B00F23CCA /* TweetTrendsTests.m */; };
+		E2330D7D18C3A69D00F23CCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2330D7C18C3A69D00F23CCA /* Main.storyboard */; };
+		E2733C6918C3F00100C459CC /* Main1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2733C6818C3F00100C459CC /* Main1.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		E2330D6E18C3A65B00F23CCA /* TweetTrendsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TweetTrendsTests-Info.plist"; sourceTree = "<group>"; };
 		E2330D7018C3A65B00F23CCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E2330D7218C3A65B00F23CCA /* TweetTrendsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TweetTrendsTests.m; sourceTree = "<group>"; };
+		E2330D7C18C3A69D00F23CCA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E2733C6818C3F00100C459CC /* Main1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main1.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		E2330D4118C3A65A00F23CCA = {
 			isa = PBXGroup;
 			children = (
+				E2330D7C18C3A69D00F23CCA /* Main.storyboard */,
+				E2733C6818C3F00100C459CC /* Main1.storyboard */,
 				E2330D5318C3A65B00F23CCA /* TweetTrends */,
 				E2330D6C18C3A65B00F23CCA /* TweetTrendsTests */,
 				E2330D4C18C3A65B00F23CCA /* Frameworks */,
@@ -219,6 +225,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2330D7D18C3A69D00F23CCA /* Main.storyboard in Resources */,
+				E2733C6918C3F00100C459CC /* Main1.storyboard in Resources */,
 				E2330D5818C3A65B00F23CCA /* InfoPlist.strings in Resources */,
 				E2330D6018C3A65B00F23CCA /* Images.xcassets in Resources */,
 			);
@@ -441,6 +449,7 @@
 				E2330D7818C3A65B00F23CCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2330D7918C3A65B00F23CCA /* Build configuration list for PBXNativeTarget "TweetTrendsTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +458,7 @@
 				E2330D7B18C3A65B00F23CCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
